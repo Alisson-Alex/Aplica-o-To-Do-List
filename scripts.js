@@ -32,19 +32,18 @@ function showTasks(){ //Função mostrar cada tarefa da lista
     let newLi = ''
 
     myList.forEach((item, position1) => { //Lê item por item no array
-        newLi = newLi + 
-        `
+        newLi = newLi + `
 
             <li class="task ${item.complete && "done"}">   
                 <div>
                     <h3>${item.title}</h3>
                     <p>${item.description}</p>
                 </div>
-                <img url("https://raw.githubusercontent.com/Alisson-Alex/Aplica-o-To-Do-List/main/img/confirm.png") alt="check-na-tarefa" onclick="completeTask(${position1})">
-                <img url("https://raw.githubusercontent.com/Alisson-Alex/Aplica-o-To-Do-List/main/img/delete.png") alt="tarefa-para-lixo" onclick="deleteItem(${position1})">
+                    <img src="./img/confirm1.png" alt="check-na-tarefa" onclick="completeTask(${position1})">
+                    <img src="./img/delete1.png" alt="tarefa-para-lixo" onclick="deleteItem(${position1})">
             </li>
 
-        `
+            `
     }) 
 
     listComplete.innerHTML = newLi
