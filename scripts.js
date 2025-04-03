@@ -39,8 +39,8 @@ function showTasks(){ //Função mostrar cada tarefa da lista
                     <h3>${item.title}</h3>
                     <p>${item.description}</p>
                 </div>
-                    <img src="./img/confirm1.png" alt="check-na-tarefa" onclick="completeTask(${position1})">
-                    <img src="./img/delete1.png" alt="tarefa-para-lixo" onclick="deleteItem(${position1})">
+                    <img src="https://github.com/Alisson-Alex/Aplica-o-To-Do-List/blob/main/img/confirm.png" alt="check-na-tarefa" onclick="completeTask(${position1})">
+                    <img src="https://github.com/Alisson-Alex/Aplica-o-To-Do-List/blob/main/img/delete.png" alt="tarefa-para-lixo" onclick="deleteItem(${position1})">
             </li>
 
             `
