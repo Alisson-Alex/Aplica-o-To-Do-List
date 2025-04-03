@@ -9,7 +9,7 @@
 
 
 body{ /* Estabelece a imagem de fundo e parâmetros.*/
-    background: url("https://github.com/Alisson-Alex/Aplica-o-To-Do-List/blob/main/img/backgroud.jpg");
+    background: url("./img/backgroud.jpg");
     background-size: auto;
     background-position: top;
 
