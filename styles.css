@@ -200,6 +200,18 @@ img { /* Parâmetros para do icone 'Confirmar' e 'Deletar'.*/
 }
 
 @media (max-width: 600px) {
+    .navBox{
+        width: 400px;
+    }
+
+    .input-container {
+        width: 400px;
+    }
+
+    .box-tasks {
+        width: 400px;
+    }
+    
     .container {
         width: 90%; /* Ajuste a largura do contêiner para telas menores */
     }
